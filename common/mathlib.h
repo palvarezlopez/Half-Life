@@ -80,6 +80,7 @@ typedef union DLONG {
 extern DLONG	dlong;
 
 #ifdef _WIN32
+/*
 void __inline set_fpu_cw(void)
 {
 _asm	
@@ -92,7 +93,6 @@ _asm
 			fldcw	new_cw
 	}
 }
-
 int __inline quick_ftol(float f)
 {
 	_asm {
@@ -107,6 +107,7 @@ void __inline restore_fpu_cw(void)
 {
 	_asm	fldcw	old_cw
 }
+*/
 #else
 #define set_fpu_cw() /* */
 #define quick_ftol(f) ftol(f)
