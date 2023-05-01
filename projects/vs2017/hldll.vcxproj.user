@@ -7,9 +7,9 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LocalDebuggerCommand>..\..\half-life\hl.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>E:\Steam\steamapps\common\Half-Life\hl.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments>-windowed -debug -dev</LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>..\..\half-life</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>E:\Steam\steamapps\common\Half-Life</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -19,9 +19,9 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LocalDebuggerCommand>..\..\half-life\hl.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>E:\Steam\steamapps\common\Half-Life\hl.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments>-windowed -debug -dev</LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>..\..\half-life</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>E:\Steam\steamapps\common\Half-Life</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>

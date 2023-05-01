@@ -76,7 +76,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <TargetName>hl</TargetName>
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\..\half-life\valve\dlls</OutDir>
+    <OutDir>E:\Steam\steamapps\common\Half-Life\valve\dlls</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -87,7 +87,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <TargetName>hl</TargetName>
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\..\half-life\valve\dlls</OutDir>
+    <OutDir>E:\Steam\steamapps\common\Half-Life\valve\dlls</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
